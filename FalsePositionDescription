@@ -1,0 +1,6 @@
+# A description for a MATLAB algorithm for false position root-finding method.
+This function computes the root of a function using the false position method. 
+This root-finding method creates a secant line with the upper and lower bounds. 
+To find the secant line, I used this equation: xr = xu - f(xu)*(xl-xu)/f(xl)-f(xu).
+The given function is evaluated at xr and the lower bound, respectively. 
+Then, each calculation's results are multiplied to determine which bound xr will replace. 
