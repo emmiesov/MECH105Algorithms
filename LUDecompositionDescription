@@ -1,0 +1,8 @@
+# Help Description for a LU Decomposition MATLAB algorithm:
+This function evaluates a matrix the user gives using forward elimination, backward substitution, and pivoting.
+This function determines whether or not the matrix is square. 
+If no, LU Decomposition cannot be applied. 
+If yes, three matrices are created, which act as the bases for the upper triangular, lower triangular, and permutation matrices.
+This function finds the row where the element in the first column has the greatest value and performs pivoting.
+This step repeats until the upper triangular and permutation matrices are complete.
+The modified matrices are used to determine the lower triangular matrix using the permutation matrix.
