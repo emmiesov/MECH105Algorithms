@@ -1,0 +1,8 @@
+# Help Text For Linear Regression MATLAB Algorithm:
+This function computes the linear regression of a data set.
+This data set consists of two arrays. 
+One is for the x-values, and the second is for the corresponding y-values:
+The sort function is utilized to rearrange the order of both arrays.
+The indices are found using the Minitab Method equations on Wolfram's website, Mathworld.
+The lower bounds are determined to be compared to the rearranged arrays. This process filters outliers from the data.
+The linear regression slope, intercept, and R-squared value are calculated.
